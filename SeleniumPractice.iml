@@ -20,5 +20,23 @@
         <jarDirectory url="file://$MODULE_DIR$/../../soft/Selenium/selenium-java-4.20.0" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../soft/Junit/junit-4.13.2 (1).jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../soft/Junit/hamcrest-2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
