@@ -12,4 +12,9 @@ public class Utility extends BaseTest {
       element.click();
     }
 
+    public void sendTextToElement(By by, String text) {
+        WebElement element=driver.findElement(by);
+        element.sendKeys(text);
+    }
+
 }
