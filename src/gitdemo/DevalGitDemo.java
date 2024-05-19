@@ -1,2 +1,8 @@
-package gitdemo;public class DevalGitDemo {
+package gitdemo;
+
+public class DevalGitDemo {
+    public static void main(String[] args) {
+        System.out.println("I like Software Testing");
+    }
+
 }
