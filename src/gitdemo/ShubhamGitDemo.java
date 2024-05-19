@@ -6,5 +6,7 @@ public class ShubhamGitDemo {
         System.out.println("I like Java");
 
         System.out.println("Kai pan chalse");
+
+        System.out.println("JAVA is amazing");
     }
 }
