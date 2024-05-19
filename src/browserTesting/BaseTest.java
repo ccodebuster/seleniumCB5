@@ -19,7 +19,7 @@ public class BaseTest {
         System.out.println(title);
 
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(400));
+        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
     }
 
     public void closeBrowser(){
