@@ -24,9 +24,12 @@ public class JunitTestDemo extends Utility {
         loginLink.click();*/
         clickOnElement(By.className("ico-login"));
         String actualWelcomeText = driver.findElement(By.xpath("//h1[contains(text(),'Welcome, Please Sign In!')]")).getText();
-        String expectingWelcomeText = "Welcome, Please Sign In";
+        String expectingWelcomeText = "Welcome, Please Sign In!";
         Assert.assertEquals("Validating welcome text",expectingWelcomeText,actualWelcomeText);
 
+        String actualMsg=driver.findElement(By.xpath("//strong[text()='New Customer']")).getText();
+        String expectedMsg = "New Customer";
+        Assert.assertTrue(expectedMsg.equalsIgnoreCase(actualMsg));
 
     }
 
